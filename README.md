@@ -1,5 +1,5 @@
 # pyTARG
-Python library fo work with genome scale metabolic models
+Python library to work with genome scale metabolic models
 pyTARG is a library that contains functions to work with Genome Scale Metabolic Models with the goal of finding drug targets against cancer
 1. fullconstrain(model,expr,coefficient) takes as inputs a model imported with COBRApy, a dictionary with expression levels of each gene (the keys are ENSEMBL
 gene identifiers and the values are expression levels in RPMK, the coefficient takes a deffault value of 0.1. The function outputs a constrained model
