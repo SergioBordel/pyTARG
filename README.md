@@ -9,4 +9,4 @@ the objective function after constraining the fluxes in the target reactions to 
 4. personal(model1,model2) takes two constrained models as inputs, model1 is the cancer model to be targetted and model2 a reference healthy cell type. The output
 is a list of reactions to be targetted simultaneously.
 
-A new version of pyTARG in which the function
+The function cobra.flux_analysis.optimize_minimal_flux(), present in the version 0.9.0 of COBRApy, has been discontinued in subsequent versions. Thus, in January of 2022 we uploaded a new version of pyTARG, pyTARG2, which does not use this function.
